@@ -1,0 +1,1240 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Meta tags básicas -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- SEO Meta Tags -->
+    <title>Kaique Soares de Souza | Analista de Dados</title>
+    <meta name="description" content="Portfólio profissional de Kaique Soares de Souza - Analista de Dados especializado em SQL, Python, Power BI e automação de processos logísticos.">
+    <meta name="keywords" content="analista de dados, data analyst, SQL, Python, Power BI, dashboards, logística, portfólio">
+    <meta name="author" content="Kaique Soares de Souza">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Kaique Soares de Souza | Analista de Dados">
+    <meta property="og:description" content="Transformando dados em decisões estratégicas. Especialista em análise de dados, visualização e automação para operações logísticas.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+
+    <!-- Favicon placeholder -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- CSS Externo -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ========================================
+         NAVBAR - Navegação fixa com efeito blur
+    ======================================== -->
+    <nav class="navbar" id="navbar" aria-label="Navegação principal">
+        <div class="navbar-container">
+            <!-- Logo com gradiente -->
+            <a href="#hero" class="navbar-logo" aria-label="Ir ao topo">
+                <span class="logo-text">KS</span>
+            </a>
+
+            <!-- Links de navegação desktop -->
+            <ul class="navbar-links" id="navbar-links">
+                <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                <li><a href="#competencias" class="nav-link">Competências</a></li>
+                <li><a href="#dashboards" class="nav-link">Dashboards</a></li>
+                <li><a href="#engenharia" class="nav-link">Engenharia de Dados</a></li>
+                <li><a href="#experiencia" class="nav-link">Experiência</a></li>
+                <li><a href="#formacao" class="nav-link">Formação</a></li>
+                <li><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+
+            <!-- Botão hamburger mobile -->
+            <button class="navbar-hamburger" id="navbar-hamburger" aria-label="Abrir menu de navegação" aria-expanded="false">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ========================================
+         HERO SECTION - Apresentação principal
+    ======================================== -->
+    <section class="hero" id="hero">
+        <!-- Grid animado de fundo -->
+        <div class="hero-bg-grid" aria-hidden="true"></div>
+        <div class="hero-particles" id="hero-particles" aria-hidden="true"></div>
+
+        <div class="hero-content fade-in">
+            <!-- Saudação e nome -->
+            <p class="hero-greeting">Olá, eu sou</p>
+            <h1 class="hero-name">
+                <span class="gradient-text">Kaique Soares</span>
+                <span class="hero-name-secondary">de Souza</span>
+            </h1>
+
+            <!-- Subtítulo profissional -->
+            <p class="hero-subtitle">
+                Analista de Dados <span class="hero-separator">|</span>
+                <span class="hero-tech">SQL</span> •
+                <span class="hero-tech">Python</span> •
+                <span class="hero-tech">Power BI</span>
+            </p>
+
+            <!-- Descrição breve -->
+            <p class="hero-description">
+                Transformando dados em decisões estratégicas. Especialista em análise de dados,
+                visualização e automação para operações logísticas.
+            </p>
+
+            <!-- Botões CTA -->
+            <div class="hero-cta">
+                <a href="https://linkedin.com/in/kaique-soares-de-souza-732b15259/" target="_blank" rel="noopener noreferrer" class="btn btn-primary" aria-label="Acessar LinkedIn">
+                    <i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn
+                </a>
+                <a href="https://github.com/kzzkaiquesds" target="_blank" rel="noopener noreferrer" class="btn btn-outline" aria-label="Acessar GitHub">
+                    <i class="fab fa-github" aria-hidden="true"></i> GitHub
+                </a>
+                <a href="curriculo-ats.html" class="btn btn-outline" aria-label="Baixar currículo">
+                    <i class="fas fa-download" aria-hidden="true"></i> Download CV
+                </a>
+            </div>
+
+            <!-- Estatísticas -->
+            <div class="hero-stats">
+                <div class="stat-item slide-up">
+                    <span class="stat-number" data-count="4">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">Anos Experiência</span>
+                </div>
+                <div class="stat-item slide-up" style="animation-delay: 0.2s;">
+                    <span class="stat-number" data-count="3">0</span>
+                    <span class="stat-label">ERPs Dominados</span>
+                </div>
+                <div class="stat-item slide-up" style="animation-delay: 0.4s;">
+                    <span class="stat-number" data-count="2">0</span>
+                    <span class="stat-label">Graduações</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Indicador de scroll -->
+        <div class="hero-scroll-indicator" aria-hidden="true">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+            <span>Role para baixo</span>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SOBRE MIM - Bio profissional
+    ======================================== -->
+    <section class="section sobre" id="sobre">
+        <div class="container">
+            <h2 class="section-title fade-in">
+                <span class="title-icon"><i class="fas fa-user" aria-hidden="true"></i></span>
+                Sobre <span class="gradient-text">Mim</span>
+            </h2>
+
+            <div class="sobre-grid">
+                <!-- Avatar e info -->
+                <div class="sobre-avatar-wrapper fade-in">
+                    <div class="sobre-avatar" aria-label="Iniciais de Kaique Soares">
+                        <span class="avatar-initials">KS</span>
+                    </div>
+                    <div class="sobre-info-badges">
+                        <span class="badge"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Franco da Rocha, SP</span>
+                        <span class="badge"><i class="fas fa-birthday-cake" aria-hidden="true"></i> 24 anos</span>
+                        <span class="badge"><i class="fas fa-briefcase" aria-hidden="true"></i> Analista de Dados</span>
+                    </div>
+                </div>
+
+                <!-- Bio texto -->
+                <div class="sobre-bio fade-in">
+                    <p>
+                        Profissional com <strong>mais de 4 anos de experiência</strong> na área de logística e operações,
+                        com foco em <strong>análise de dados, automação de relatórios e business intelligence</strong>.
+                    </p>
+                    <p>
+                        Atualmente atuando como <strong>Analista de Dados</strong> na Anjun Express, onde desenvolvo dashboards
+                        estratégicos em Power BI, automatizo processos com Python e SQL, e gero insights que impactam
+                        diretamente nas decisões operacionais das áreas de B2C e Atendimento.
+                    </p>
+                    <p>
+                        Minha trajetória inclui experiência com os principais ERPs do mercado logístico — <strong>WMS, SAP e TOTVS</strong> —
+                        e uma sólida base em banco de dados relacionais, permitindo-me criar soluções completas de
+                        ponta a ponta, da extração à visualização dos dados.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Cards de números -->
+            <div class="sobre-stats-grid">
+                <div class="sobre-stat-card slide-up">
+                    <div class="stat-card-icon"><i class="fas fa-chart-bar" aria-hidden="true"></i></div>
+                    <span class="stat-card-number" data-count="15">0</span><span class="stat-card-suffix">+</span>
+                    <span class="stat-card-label">Dashboards Criados</span>
+                </div>
+                <div class="sobre-stat-card slide-up" style="animation-delay: 0.1s;">
+                    <div class="stat-card-icon"><i class="fas fa-database" aria-hidden="true"></i></div>
+                    <span class="stat-card-number" data-count="50">0</span><span class="stat-card-suffix">+</span>
+                    <span class="stat-card-label">Queries Otimizadas</span>
+                </div>
+                <div class="sobre-stat-card slide-up" style="animation-delay: 0.2s;">
+                    <div class="stat-card-icon"><i class="fas fa-cogs" aria-hidden="true"></i></div>
+                    <span class="stat-card-number" data-count="10">0</span><span class="stat-card-suffix">+</span>
+                    <span class="stat-card-label">Processos Automatizados</span>
+                </div>
+                <div class="sobre-stat-card slide-up" style="animation-delay: 0.3s;">
+                    <div class="stat-card-icon"><i class="fas fa-project-diagram" aria-hidden="true"></i></div>
+                    <span class="stat-card-number" data-count="20">0</span><span class="stat-card-suffix">+</span>
+                    <span class="stat-card-label">Projetos Entregues</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         COMPETÊNCIAS TÉCNICAS - Grid de skills
+    ======================================== -->
+    <section class="section competencias" id="competencias">
+        <div class="container">
+            <h2 class="section-title fade-in">
+                <span class="title-icon"><i class="fas fa-laptop-code" aria-hidden="true"></i></span>
+                Competências <span class="gradient-text">Técnicas</span>
+            </h2>
+
+            <div class="competencias-grid">
+                <!-- Categoria: Visualização & Análise -->
+                <div class="competencia-card fade-in">
+                    <div class="competencia-header">
+                        <div class="competencia-icon"><i class="fas fa-chart-pie" aria-hidden="true"></i></div>
+                        <h3 class="competencia-titulo">Visualização & Análise</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info"><span class="skill-name">Excel</span><span class="skill-percent">95%</span></div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="95"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span class="skill-name">Power BI</span><span class="skill-percent">90%</span></div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="90"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span class="skill-name">Tableau</span><span class="skill-percent">80%</span></div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="80"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span class="skill-name">Power Query</span><span class="skill-percent">90%</span></div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="90"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span class="skill-name">VBA</span><span class="skill-percent">75%</span></div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="75"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span class="skill-name">DAX</span><span class="skill-percent">85%</span></div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="85"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span class="skill-name">Linguagem M</span><span class="skill-percent">80%</span></div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="80"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span class="skill-name">PowerPoint</span><span class="skill-percent">85%</span></div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="85"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Categoria: Banco de Dados & Programação -->
+                <div class="competencia-card fade-in" style="animation-delay: 0.1s;">
+                    <div class="competencia-header">
+                        <div class="competencia-icon"><i class="fas fa-database" aria-hidden="true"></i></div>
+                        <h3 class="competencia-titulo">Banco de Dados & Programação</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info"><span class="skill-name">SQL</span><span class="skill-percent">90%</span></div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="90"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span class="skill-name">PostgreSQL</span><span class="skill-percent">85%</span></div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="85"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span class="skill-name">Oracle</span><span class="skill-percent">80%</span></div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="80"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span class="skill-name">SQLite</span><span class="skill-percent">75%</span></div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="75"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span class="skill-name">Python</span><span class="skill-percent">80%</span></div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="80"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span class="skill-name">Java</span><span class="skill-percent">40%</span></div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="40"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Categoria: ERPs & Sistemas -->
+                <div class="competencia-card fade-in" style="animation-delay: 0.2s;">
+                    <div class="competencia-header">
+                        <div class="competencia-icon"><i class="fas fa-server" aria-hidden="true"></i></div>
+                        <h3 class="competencia-titulo">ERPs & Sistemas</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info"><span class="skill-name">WMS</span><span class="skill-percent">85%</span></div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="85"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span class="skill-name">SAP</span><span class="skill-percent">80%</span></div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="80"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span class="skill-name">TOTVS</span><span class="skill-percent">75%</span></div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="75"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span class="skill-name">WIS</span><span class="skill-percent">70%</span></div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="70"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Categoria: Idiomas -->
+                <div class="competencia-card fade-in" style="animation-delay: 0.3s;">
+                    <div class="competencia-header">
+                        <div class="competencia-icon"><i class="fas fa-language" aria-hidden="true"></i></div>
+                        <h3 class="competencia-titulo">Idiomas</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info"><span class="skill-name">Português</span><span class="skill-percent">Nativo</span></div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="100"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span class="skill-name">Inglês (CNA)</span><span class="skill-percent">Avançado</span></div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="85"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span class="skill-name">Espanhol</span><span class="skill-percent">Intermediário</span></div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="60"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         DASHBOARDS INTERATIVOS - 3 abas com gráficos Chart.js
+    ======================================== -->
+    <section class="section dashboards" id="dashboards">
+        <div class="container">
+            <h2 class="section-title fade-in">
+                <span class="title-icon"><i class="fas fa-chart-line" aria-hidden="true"></i></span>
+                Dashboards <span class="gradient-text">Interativos</span>
+            </h2>
+            <p class="section-subtitle fade-in">Exemplos de dashboards com dados sintéticos — filtros funcionais e gráficos interativos.</p>
+
+            <!-- Abas de seleção -->
+            <div class="dashboard-tabs fade-in" role="tablist" aria-label="Seleção de dashboard">
+                <button class="dashboard-tab active" role="tab" aria-selected="true" aria-controls="dashboard-b2c" data-tab="dashboard-b2c">
+                    <i class="fas fa-shopping-cart" aria-hidden="true"></i> Indicadores B2C
+                </button>
+                <button class="dashboard-tab" role="tab" aria-selected="false" aria-controls="dashboard-inventario" data-tab="dashboard-inventario">
+                    <i class="fas fa-boxes-stacked" aria-hidden="true"></i> Gestão de Inventário
+                </button>
+                <button class="dashboard-tab" role="tab" aria-selected="false" aria-controls="dashboard-avarias" data-tab="dashboard-avarias">
+                    <i class="fas fa-triangle-exclamation" aria-hidden="true"></i> Controle de Avarias
+                </button>
+            </div>
+
+            <!-- ===== DASHBOARD 1: Indicadores B2C e Atendimento ===== -->
+            <div class="dashboard-panel active" id="dashboard-b2c" role="tabpanel" aria-labelledby="tab-b2c">
+                <div class="dashboard-header">
+                    <h3 class="dashboard-title"><i class="fas fa-shopping-cart" aria-hidden="true"></i> Indicadores B2C e Atendimento</h3>
+                </div>
+
+                <!-- Filtros -->
+                <div class="dashboard-filters">
+                    <div class="filter-group">
+                        <label for="filtro-b2c-periodo">Período</label>
+                        <select id="filtro-b2c-periodo" class="filter-select">
+                            <option value="todos">Todos os Meses</option>
+                            <option value="0">Janeiro</option>
+                            <option value="1">Fevereiro</option>
+                            <option value="2">Março</option>
+                            <option value="3">Abril</option>
+                            <option value="4">Maio</option>
+                            <option value="5">Junho</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="filtro-b2c-canal">Canal</label>
+                        <select id="filtro-b2c-canal" class="filter-select">
+                            <option value="todos">Todos os Canais</option>
+                            <option value="B2C">B2C</option>
+                            <option value="Marketplace">Marketplace</option>
+                            <option value="Direto">Direto</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="filtro-b2c-status">Status</label>
+                        <select id="filtro-b2c-status" class="filter-select">
+                            <option value="todos">Todos</option>
+                            <option value="Entregue">Entregue</option>
+                            <option value="Em Trânsito">Em Trânsito</option>
+                            <option value="Devolvido">Devolvido</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- KPIs -->
+                <div class="kpi-grid">
+                    <div class="kpi-card">
+                        <div class="kpi-icon"><i class="fas fa-box" aria-hidden="true"></i></div>
+                        <div class="kpi-content">
+                            <span class="kpi-value" id="kpi-b2c-pedidos">12.458</span>
+                            <span class="kpi-label">Total Pedidos</span>
+                        </div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-icon"><i class="fas fa-truck" aria-hidden="true"></i></div>
+                        <div class="kpi-content">
+                            <span class="kpi-value" id="kpi-b2c-entrega">94,2%</span>
+                            <span class="kpi-label">Taxa de Entrega</span>
+                        </div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-icon"><i class="fas fa-clock" aria-hidden="true"></i></div>
+                        <div class="kpi-content">
+                            <span class="kpi-value" id="kpi-b2c-tempo">2,3 dias</span>
+                            <span class="kpi-label">Tempo Médio</span>
+                        </div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-icon"><i class="fas fa-star" aria-hidden="true"></i></div>
+                        <div class="kpi-content">
+                            <span class="kpi-value" id="kpi-b2c-satisfacao">4,7/5</span>
+                            <span class="kpi-label">Satisfação Cliente</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gráficos -->
+                <div class="charts-grid">
+                    <div class="chart-card chart-large">
+                        <h4 class="chart-title">Pedidos por Mês</h4>
+                        <div class="chart-wrapper"><canvas id="chart-b2c-barras" aria-label="Gráfico de barras - Pedidos por mês"></canvas></div>
+                    </div>
+                    <div class="chart-card">
+                        <h4 class="chart-title">Taxa de Entrega no Prazo (%)</h4>
+                        <div class="chart-wrapper"><canvas id="chart-b2c-linha" aria-label="Gráfico de linha - Taxa de entrega no prazo"></canvas></div>
+                    </div>
+                    <div class="chart-card">
+                        <h4 class="chart-title">Distribuição por Canal</h4>
+                        <div class="chart-wrapper"><canvas id="chart-b2c-rosca" aria-label="Gráfico de rosca - Distribuição por canal"></canvas></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ===== DASHBOARD 2: Gestão de Inventário ===== -->
+            <div class="dashboard-panel" id="dashboard-inventario" role="tabpanel" aria-labelledby="tab-inventario">
+                <div class="dashboard-header">
+                    <h3 class="dashboard-title"><i class="fas fa-boxes-stacked" aria-hidden="true"></i> Gestão de Inventário</h3>
+                </div>
+
+                <!-- Filtros -->
+                <div class="dashboard-filters">
+                    <div class="filter-group">
+                        <label for="filtro-inv-armazem">Armazém</label>
+                        <select id="filtro-inv-armazem" class="filter-select">
+                            <option value="todos">Todos</option>
+                            <option value="CD01">CD01</option>
+                            <option value="CD02">CD02</option>
+                            <option value="CD03">CD03</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="filtro-inv-categoria">Categoria</label>
+                        <select id="filtro-inv-categoria" class="filter-select">
+                            <option value="todos">Todas</option>
+                            <option value="Eletrônicos">Eletrônicos</option>
+                            <option value="Vestuário">Vestuário</option>
+                            <option value="Alimentos">Alimentos</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="filtro-inv-criticidade">Criticidade</label>
+                        <select id="filtro-inv-criticidade" class="filter-select">
+                            <option value="todos">Todas</option>
+                            <option value="Alta">Alta</option>
+                            <option value="Média">Média</option>
+                            <option value="Baixa">Baixa</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- KPIs -->
+                <div class="kpi-grid">
+                    <div class="kpi-card">
+                        <div class="kpi-icon"><i class="fas fa-barcode" aria-hidden="true"></i></div>
+                        <div class="kpi-content">
+                            <span class="kpi-value" id="kpi-inv-skus">3.247</span>
+                            <span class="kpi-label">Total SKUs</span>
+                        </div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-icon"><i class="fas fa-bullseye" aria-hidden="true"></i></div>
+                        <div class="kpi-content">
+                            <span class="kpi-value" id="kpi-inv-acuracia">98,3%</span>
+                            <span class="kpi-label">Acurácia Inventário</span>
+                        </div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-icon"><i class="fas fa-rotate" aria-hidden="true"></i></div>
+                        <div class="kpi-content">
+                            <span class="kpi-value" id="kpi-inv-giro">4,8x</span>
+                            <span class="kpi-label">Giro de Estoque</span>
+                        </div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-icon"><i class="fas fa-calendar-days" aria-hidden="true"></i></div>
+                        <div class="kpi-content">
+                            <span class="kpi-value" id="kpi-inv-cobertura">45 dias</span>
+                            <span class="kpi-label">Cobertura</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gráficos -->
+                <div class="charts-grid">
+                    <div class="chart-card chart-large">
+                        <h4 class="chart-title">Top 10 SKUs por Valor</h4>
+                        <div class="chart-wrapper"><canvas id="chart-inv-barras" aria-label="Gráfico de barras horizontal - Top 10 SKUs por valor"></canvas></div>
+                    </div>
+                    <div class="chart-card">
+                        <h4 class="chart-title">Evolução do Estoque</h4>
+                        <div class="chart-wrapper"><canvas id="chart-inv-area" aria-label="Gráfico de área - Evolução do estoque"></canvas></div>
+                    </div>
+                    <div class="chart-card">
+                        <h4 class="chart-title">Classificação ABC</h4>
+                        <div class="chart-wrapper"><canvas id="chart-inv-rosca" aria-label="Gráfico de rosca - Classificação ABC"></canvas></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ===== DASHBOARD 3: Controle de Avarias ===== -->
+            <div class="dashboard-panel" id="dashboard-avarias" role="tabpanel" aria-labelledby="tab-avarias">
+                <div class="dashboard-header">
+                    <h3 class="dashboard-title"><i class="fas fa-triangle-exclamation" aria-hidden="true"></i> Controle de Avarias — WMS / SAP / TOTVS</h3>
+                </div>
+
+                <!-- Filtros -->
+                <div class="dashboard-filters">
+                    <div class="filter-group">
+                        <label for="filtro-av-sistema">Sistema</label>
+                        <select id="filtro-av-sistema" class="filter-select">
+                            <option value="todos">Todos</option>
+                            <option value="WMS">WMS</option>
+                            <option value="SAP">SAP</option>
+                            <option value="TOTVS">TOTVS</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="filtro-av-tipo">Tipo de Avaria</label>
+                        <select id="filtro-av-tipo" class="filter-select">
+                            <option value="todos">Todos</option>
+                            <option value="Física">Física</option>
+                            <option value="Sistêmica">Sistêmica</option>
+                            <option value="Transporte">Transporte</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="filtro-av-periodo">Período</label>
+                        <select id="filtro-av-periodo" class="filter-select">
+                            <option value="todos">Todos os Meses</option>
+                            <option value="0">Janeiro</option>
+                            <option value="1">Fevereiro</option>
+                            <option value="2">Março</option>
+                            <option value="3">Abril</option>
+                            <option value="4">Maio</option>
+                            <option value="5">Junho</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- KPIs -->
+                <div class="kpi-grid">
+                    <div class="kpi-card">
+                        <div class="kpi-icon"><i class="fas fa-exclamation-circle" aria-hidden="true"></i></div>
+                        <div class="kpi-content">
+                            <span class="kpi-value" id="kpi-av-total">847</span>
+                            <span class="kpi-label">Total Avarias</span>
+                        </div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-icon"><i class="fas fa-percent" aria-hidden="true"></i></div>
+                        <div class="kpi-content">
+                            <span class="kpi-value" id="kpi-av-taxa">1,8%</span>
+                            <span class="kpi-label">Taxa de Avaria</span>
+                        </div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-icon"><i class="fas fa-dollar-sign" aria-hidden="true"></i></div>
+                        <div class="kpi-content">
+                            <span class="kpi-value" id="kpi-av-custo">R$ 127.350</span>
+                            <span class="kpi-label">Custo Total</span>
+                        </div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-icon"><i class="fas fa-check-circle" aria-hidden="true"></i></div>
+                        <div class="kpi-content">
+                            <span class="kpi-value" id="kpi-av-resolvidas">92,4%</span>
+                            <span class="kpi-label">Avarias Resolvidas</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gráficos -->
+                <div class="charts-grid">
+                    <div class="chart-card chart-large">
+                        <h4 class="chart-title">Avarias por Sistema e Tipo</h4>
+                        <div class="chart-wrapper"><canvas id="chart-av-barras" aria-label="Gráfico de barras empilhadas - Avarias por sistema e tipo"></canvas></div>
+                    </div>
+                    <div class="chart-card">
+                        <h4 class="chart-title">Tendência Mensal de Avarias</h4>
+                        <div class="chart-wrapper"><canvas id="chart-av-linha" aria-label="Gráfico de linha - Tendência mensal de avarias"></canvas></div>
+                    </div>
+                    <div class="chart-card">
+                        <h4 class="chart-title">Distribuição por Causa Raiz</h4>
+                        <div class="chart-wrapper"><canvas id="chart-av-rosca" aria-label="Gráfico de rosca - Distribuição por causa raiz"></canvas></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         ENGENHARIA DE DADOS - Tabs de código
+    ======================================== -->
+    <section class="section engenharia" id="engenharia">
+        <div class="container">
+            <h2 class="section-title fade-in">
+                <span class="title-icon"><i class="fas fa-code" aria-hidden="true"></i></span>
+                Engenharia de <span class="gradient-text">Dados</span>
+            </h2>
+            <p class="section-subtitle fade-in">Exemplos reais de queries, scripts e medidas utilizados em projetos de dados.</p>
+
+            <!-- Abas de código -->
+            <div class="code-tabs fade-in" role="tablist" aria-label="Seleção de linguagem">
+                <button class="code-tab active" role="tab" aria-selected="true" data-codetab="code-sql">
+                    <i class="fas fa-database" aria-hidden="true"></i> SQL — PostgreSQL & Oracle
+                </button>
+                <button class="code-tab" role="tab" aria-selected="false" data-codetab="code-python">
+                    <i class="fab fa-python" aria-hidden="true"></i> Python — Automação
+                </button>
+                <button class="code-tab" role="tab" aria-selected="false" data-codetab="code-dax">
+                    <i class="fas fa-calculator" aria-hidden="true"></i> DAX & Linguagem M
+                </button>
+            </div>
+
+            <!-- ===== TAB 1: SQL ===== -->
+            <div class="code-panel active" id="code-sql" role="tabpanel">
+                <div class="code-block">
+                    <div class="code-block-header">
+                        <span class="code-lang"><i class="fas fa-database" aria-hidden="true"></i> PostgreSQL</span>
+                        <span class="code-filename">relatorio_sla_entregas.sql</span>
+                        <button class="code-copy-btn" aria-label="Copiar código" data-target="sql-code-1"><i class="fas fa-copy" aria-hidden="true"></i> Copiar</button>
+                    </div>
+                    <pre><code class="language-sql" id="sql-code-1"><span class="code-comment">-- Análise de performance de entregas por região e período</span>
+<span class="code-comment">-- PostgreSQL - Relatório de SLA de Entrega</span>
+<span class="code-keyword">WITH</span> entregas_periodo <span class="code-keyword">AS</span> (
+    <span class="code-keyword">SELECT</span> 
+        r.nome_regiao,
+        <span class="code-function">DATE_TRUNC</span>(<span class="code-string">'month'</span>, e.data_entrega) <span class="code-keyword">AS</span> mes,
+        <span class="code-function">COUNT</span>(*) <span class="code-keyword">AS</span> total_entregas,
+        <span class="code-function">COUNT</span>(<span class="code-keyword">CASE</span> <span class="code-keyword">WHEN</span> e.data_entrega &lt;= e.data_prevista <span class="code-keyword">THEN</span> <span class="code-number">1</span> <span class="code-keyword">END</span>) <span class="code-keyword">AS</span> no_prazo,
+        <span class="code-function">AVG</span>(<span class="code-function">EXTRACT</span>(<span class="code-keyword">EPOCH FROM</span> (e.data_entrega - e.data_envio)) / <span class="code-number">3600</span>) <span class="code-keyword">AS</span> tempo_medio_horas,
+        <span class="code-function">SUM</span>(e.valor_frete) <span class="code-keyword">AS</span> receita_frete
+    <span class="code-keyword">FROM</span> entregas e
+    <span class="code-keyword">INNER JOIN</span> regioes r <span class="code-keyword">ON</span> e.regiao_id = r.id
+    <span class="code-keyword">WHERE</span> e.data_entrega <span class="code-keyword">BETWEEN</span> <span class="code-string">'2024-01-01'</span> <span class="code-keyword">AND</span> <span class="code-string">'2024-12-31'</span>
+        <span class="code-keyword">AND</span> e.status = <span class="code-string">'ENTREGUE'</span>
+    <span class="code-keyword">GROUP BY</span> r.nome_regiao, <span class="code-function">DATE_TRUNC</span>(<span class="code-string">'month'</span>, e.data_entrega)
+),
+ranking <span class="code-keyword">AS</span> (
+    <span class="code-keyword">SELECT</span> *,
+        <span class="code-function">ROUND</span>(<span class="code-number">100.0</span> * no_prazo / <span class="code-function">NULLIF</span>(total_entregas, <span class="code-number">0</span>), <span class="code-number">2</span>) <span class="code-keyword">AS</span> taxa_sla,
+        <span class="code-function">RANK</span>() <span class="code-keyword">OVER</span> (<span class="code-keyword">PARTITION BY</span> mes <span class="code-keyword">ORDER BY</span> total_entregas <span class="code-keyword">DESC</span>) <span class="code-keyword">AS</span> rank_volume
+    <span class="code-keyword">FROM</span> entregas_periodo
+)
+<span class="code-keyword">SELECT</span> 
+    nome_regiao,
+    <span class="code-function">TO_CHAR</span>(mes, <span class="code-string">'YYYY-MM'</span>) <span class="code-keyword">AS</span> periodo,
+    total_entregas,
+    taxa_sla || <span class="code-string">'%'</span> <span class="code-keyword">AS</span> sla_entregas,
+    <span class="code-function">ROUND</span>(tempo_medio_horas, <span class="code-number">1</span>) || <span class="code-string">'h'</span> <span class="code-keyword">AS</span> tempo_medio,
+    <span class="code-function">TO_CHAR</span>(receita_frete, <span class="code-string">'R$ FM999G999D00'</span>) <span class="code-keyword">AS</span> receita
+<span class="code-keyword">FROM</span> ranking
+<span class="code-keyword">WHERE</span> rank_volume &lt;= <span class="code-number">5</span>
+<span class="code-keyword">ORDER BY</span> mes <span class="code-keyword">DESC</span>, total_entregas <span class="code-keyword">DESC</span>;</code></pre>
+                </div>
+
+                <div class="code-block" style="margin-top: 1.5rem;">
+                    <div class="code-block-header">
+                        <span class="code-lang"><i class="fas fa-database" aria-hidden="true"></i> Oracle</span>
+                        <span class="code-filename">acuracia_inventario.sql</span>
+                        <button class="code-copy-btn" aria-label="Copiar código" data-target="sql-code-2"><i class="fas fa-copy" aria-hidden="true"></i> Copiar</button>
+                    </div>
+                    <pre><code class="language-sql" id="sql-code-2"><span class="code-comment">-- Oracle - Análise de Acurácia de Inventário por Armazém</span>
+<span class="code-keyword">SELECT</span> 
+    a.codigo_armazem,
+    a.nome_armazem,
+    <span class="code-function">COUNT</span>(<span class="code-keyword">DISTINCT</span> i.sku) <span class="code-keyword">AS</span> total_skus,
+    <span class="code-function">SUM</span>(<span class="code-keyword">CASE</span> <span class="code-keyword">WHEN</span> i.qtd_fisica = i.qtd_sistema <span class="code-keyword">THEN</span> <span class="code-number">1</span> <span class="code-keyword">ELSE</span> <span class="code-number">0</span> <span class="code-keyword">END</span>) <span class="code-keyword">AS</span> skus_acurados,
+    <span class="code-function">ROUND</span>(<span class="code-number">100</span> * <span class="code-function">SUM</span>(<span class="code-keyword">CASE</span> <span class="code-keyword">WHEN</span> i.qtd_fisica = i.qtd_sistema <span class="code-keyword">THEN</span> <span class="code-number">1</span> <span class="code-keyword">ELSE</span> <span class="code-number">0</span> <span class="code-keyword">END</span>) 
+        / <span class="code-function">COUNT</span>(<span class="code-keyword">DISTINCT</span> i.sku), <span class="code-number">2</span>) <span class="code-keyword">AS</span> acuracia_percentual,
+    <span class="code-function">SUM</span>(<span class="code-function">ABS</span>(i.qtd_fisica - i.qtd_sistema) * p.custo_unitario) <span class="code-keyword">AS</span> divergencia_valor,
+    <span class="code-function">RANK</span>() <span class="code-keyword">OVER</span> (<span class="code-keyword">ORDER BY</span> <span class="code-function">ROUND</span>(<span class="code-number">100</span> * <span class="code-function">SUM</span>(<span class="code-keyword">CASE</span> <span class="code-keyword">WHEN</span> i.qtd_fisica = i.qtd_sistema <span class="code-keyword">THEN</span> <span class="code-number">1</span> <span class="code-keyword">ELSE</span> <span class="code-number">0</span> <span class="code-keyword">END</span>) 
+        / <span class="code-function">COUNT</span>(<span class="code-keyword">DISTINCT</span> i.sku), <span class="code-number">2</span>) <span class="code-keyword">DESC</span>) <span class="code-keyword">AS</span> ranking_acuracia
+<span class="code-keyword">FROM</span> inventario i
+<span class="code-keyword">INNER JOIN</span> armazens a <span class="code-keyword">ON</span> i.armazem_id = a.id
+<span class="code-keyword">INNER JOIN</span> produtos p <span class="code-keyword">ON</span> i.sku = p.sku
+<span class="code-keyword">WHERE</span> i.data_contagem &gt;= <span class="code-function">ADD_MONTHS</span>(<span class="code-function">SYSDATE</span>, <span class="code-number">-3</span>)
+<span class="code-keyword">GROUP BY</span> a.codigo_armazem, a.nome_armazem
+<span class="code-keyword">ORDER BY</span> acuracia_percentual <span class="code-keyword">DESC</span>;</code></pre>
+                </div>
+            </div>
+
+            <!-- ===== TAB 2: Python ===== -->
+            <div class="code-panel" id="code-python" role="tabpanel">
+                <div class="code-block">
+                    <div class="code-block-header">
+                        <span class="code-lang"><i class="fab fa-python" aria-hidden="true"></i> Python</span>
+                        <span class="code-filename">etl_logistica.py</span>
+                        <button class="code-copy-btn" aria-label="Copiar código" data-target="python-code-1"><i class="fas fa-copy" aria-hidden="true"></i> Copiar</button>
+                    </div>
+                    <pre><code class="language-python" id="python-code-1"><span class="code-string">"""
+Script de automação para ETL de dados logísticos
+Extrai dados de múltiplas fontes, transforma e carrega em PostgreSQL
+"""</span>
+<span class="code-keyword">import</span> pandas <span class="code-keyword">as</span> pd
+<span class="code-keyword">import</span> psycopg2
+<span class="code-keyword">from</span> sqlalchemy <span class="code-keyword">import</span> create_engine
+<span class="code-keyword">from</span> datetime <span class="code-keyword">import</span> datetime, timedelta
+<span class="code-keyword">import</span> logging
+
+logging.basicConfig(level=logging.INFO, format=<span class="code-string">'%(asctime)s - %(levelname)s - %(message)s'</span>)
+logger = logging.getLogger(<span class="code-variable">__name__</span>)
+
+<span class="code-keyword">class</span> <span class="code-class">ETLLogistica</span>:
+    <span class="code-string">"""Pipeline ETL para dados de operações logísticas"""</span>
+    
+    <span class="code-keyword">def</span> <span class="code-function">__init__</span>(<span class="code-variable">self</span>, config: <span class="code-class">dict</span>):
+        <span class="code-variable">self</span>.engine = create_engine(
+            <span class="code-string">f"postgresql://<span class="code-variable">{config['user']}</span>:<span class="code-variable">{config['password']}</span>"</span>
+            <span class="code-string">f"@<span class="code-variable">{config['host']}</span>:<span class="code-variable">{config['port']}</span>/<span class="code-variable">{config['database']}</span>"</span>
+        )
+        <span class="code-variable">self</span>.data_referencia = datetime.now()
+        logger.info(<span class="code-string">"Pipeline ETL inicializado com sucesso"</span>)
+    
+    <span class="code-keyword">def</span> <span class="code-function">extrair_dados_entregas</span>(<span class="code-variable">self</span>, dias_retroativos: <span class="code-class">int</span> = <span class="code-number">30</span>) -> pd.DataFrame:
+        <span class="code-string">"""Extrai dados de entregas dos últimos N dias"""</span>
+        query = <span class="code-string">"""
+            SELECT e.*, c.nome_cliente, c.segmento,
+                   r.nome_regiao, r.uf
+            FROM entregas e
+            JOIN clientes c ON e.cliente_id = c.id
+            JOIN regioes r ON e.regiao_id = r.id
+            WHERE e.data_entrega >= %(data_inicio)s
+        """</span>
+        params = {
+            <span class="code-string">'data_inicio'</span>: <span class="code-variable">self</span>.data_referencia - timedelta(days=dias_retroativos)
+        }
+        df = pd.read_sql(query, <span class="code-variable">self</span>.engine, params=params)
+        logger.info(<span class="code-string">f"Extraídos <span class="code-variable">{len(df)}</span> registros de entregas"</span>)
+        <span class="code-keyword">return</span> df
+    
+    <span class="code-keyword">def</span> <span class="code-function">transformar_indicadores</span>(<span class="code-variable">self</span>, df: pd.DataFrame) -> pd.DataFrame:
+        <span class="code-string">"""Calcula KPIs de performance logística"""</span>
+        df[<span class="code-string">'entrega_no_prazo'</span>] = df[<span class="code-string">'data_entrega'</span>] &lt;= df[<span class="code-string">'data_prevista'</span>]
+        df[<span class="code-string">'tempo_entrega_horas'</span>] = (
+            (df[<span class="code-string">'data_entrega'</span>] - df[<span class="code-string">'data_envio'</span>]).dt.total_seconds() / <span class="code-number">3600</span>
+        )
+        
+        indicadores = df.groupby([<span class="code-string">'nome_regiao'</span>, <span class="code-string">'segmento'</span>]).agg(
+            total_entregas=(<span class="code-string">'id'</span>, <span class="code-string">'count'</span>),
+            entregas_no_prazo=(<span class="code-string">'entrega_no_prazo'</span>, <span class="code-string">'sum'</span>),
+            tempo_medio_horas=(<span class="code-string">'tempo_entrega_horas'</span>, <span class="code-string">'mean'</span>),
+            receita_total=(<span class="code-string">'valor_frete'</span>, <span class="code-string">'sum'</span>)
+        ).reset_index()
+        
+        indicadores[<span class="code-string">'taxa_sla'</span>] = round(
+            <span class="code-number">100</span> * indicadores[<span class="code-string">'entregas_no_prazo'</span>] / indicadores[<span class="code-string">'total_entregas'</span>], <span class="code-number">2</span>
+        )
+        
+        logger.info(<span class="code-string">f"Gerados indicadores para <span class="code-variable">{len(indicadores)}</span> combinações região/segmento"</span>)
+        <span class="code-keyword">return</span> indicadores
+    
+    <span class="code-keyword">def</span> <span class="code-function">carregar_dados</span>(<span class="code-variable">self</span>, df: pd.DataFrame, tabela: <span class="code-class">str</span>):
+        <span class="code-string">"""Carrega dados transformados no banco de dados"""</span>
+        df.to_sql(tabela, <span class="code-variable">self</span>.engine, if_exists=<span class="code-string">'replace'</span>, index=<span class="code-keyword">False</span>)
+        logger.info(<span class="code-string">f"Carregados <span class="code-variable">{len(df)}</span> registros na tabela '<span class="code-variable">{tabela}</span>'"</span>)
+
+<span class="code-keyword">if</span> <span class="code-variable">__name__</span> == <span class="code-string">"__main__"</span>:
+    config = {
+        <span class="code-string">'host'</span>: <span class="code-string">'localhost'</span>, <span class="code-string">'port'</span>: <span class="code-number">5432</span>,
+        <span class="code-string">'database'</span>: <span class="code-string">'logistica_db'</span>, <span class="code-string">'user'</span>: <span class="code-string">'analista'</span>, <span class="code-string">'password'</span>: <span class="code-string">'***'</span>
+    }
+    etl = ETLLogistica(config)
+    dados = etl.extrair_dados_entregas(dias_retroativos=<span class="code-number">90</span>)
+    indicadores = etl.transformar_indicadores(dados)
+    etl.carregar_dados(indicadores, <span class="code-string">'fato_indicadores_entrega'</span>)</code></pre>
+                </div>
+            </div>
+
+            <!-- ===== TAB 3: DAX & Linguagem M ===== -->
+            <div class="code-panel" id="code-dax" role="tabpanel">
+                <div class="code-block">
+                    <div class="code-block-header">
+                        <span class="code-lang"><i class="fas fa-calculator" aria-hidden="true"></i> DAX</span>
+                        <span class="code-filename">medidas_logistica.dax</span>
+                        <button class="code-copy-btn" aria-label="Copiar código" data-target="dax-code-1"><i class="fas fa-copy" aria-hidden="true"></i> Copiar</button>
+                    </div>
+                    <pre><code class="language-dax" id="dax-code-1"><span class="code-comment">// Taxa de SLA de Entrega - Medida com contexto de filtro</span>
+<span class="code-variable">Taxa SLA Entrega</span> = 
+<span class="code-keyword">VAR</span> _TotalEntregas = <span class="code-function">COUNTROWS</span>(Entregas)
+<span class="code-keyword">VAR</span> _NoPrazo = 
+    <span class="code-function">CALCULATE</span>(
+        <span class="code-function">COUNTROWS</span>(Entregas),
+        Entregas[DataEntrega] &lt;= Entregas[DataPrevista]
+    )
+<span class="code-keyword">RETURN</span>
+    <span class="code-function">DIVIDE</span>(_NoPrazo, _TotalEntregas, <span class="code-number">0</span>)
+
+<span class="code-comment">// Acurácia de Inventário Ponderada por Valor</span>
+<span class="code-variable">Acurácia Inventário</span> = 
+<span class="code-keyword">VAR</span> _ValorCorreto = 
+    <span class="code-function">SUMX</span>(
+        <span class="code-function">FILTER</span>(Inventario, Inventario[QtdFisica] = Inventario[QtdSistema]),
+        Inventario[QtdFisica] * <span class="code-function">RELATED</span>(Produtos[CustoUnitario])
+    )
+<span class="code-keyword">VAR</span> _ValorTotal = 
+    <span class="code-function">SUMX</span>(
+        Inventario,
+        Inventario[QtdSistema] * <span class="code-function">RELATED</span>(Produtos[CustoUnitario])
+    )
+<span class="code-keyword">RETURN</span>
+    <span class="code-function">DIVIDE</span>(_ValorCorreto, _ValorTotal, <span class="code-number">0</span>)
+
+<span class="code-comment">// Evolução Média Móvel 3 Meses - Avarias</span>
+<span class="code-variable">Media Movel Avarias</span> = 
+<span class="code-function">AVERAGEX</span>(
+    <span class="code-function">DATESINPERIOD</span>(
+        Calendario[Data],
+        <span class="code-function">MAX</span>(Calendario[Data]),
+        <span class="code-number">-3</span>,
+        <span class="code-keyword">MONTH</span>
+    ),
+    [Total Avarias]
+)</code></pre>
+                </div>
+
+                <div class="code-block" style="margin-top: 1.5rem;">
+                    <div class="code-block-header">
+                        <span class="code-lang"><i class="fas fa-cog" aria-hidden="true"></i> Linguagem M</span>
+                        <span class="code-filename">transformacao_inventario.pq</span>
+                        <button class="code-copy-btn" aria-label="Copiar código" data-target="m-code-1"><i class="fas fa-copy" aria-hidden="true"></i> Copiar</button>
+                    </div>
+                    <pre><code class="language-m" id="m-code-1"><span class="code-comment">// Linguagem M - Transformação de dados de inventário</span>
+<span class="code-keyword">let</span>
+    Fonte = <span class="code-function">Sql.Database</span>(<span class="code-string">"servidor"</span>, <span class="code-string">"logistica_db"</span>),
+    Inventario = Fonte{[Schema=<span class="code-string">"dbo"</span>, Item=<span class="code-string">"inventario"</span>]}[Data],
+    
+    <span class="code-comment">// Remover colunas desnecessárias</span>
+    ColunasRemovidas = <span class="code-function">Table.RemoveColumns</span>(Inventario, {<span class="code-string">"id_interno"</span>, <span class="code-string">"timestamp_carga"</span>}),
+    
+    <span class="code-comment">// Calcular divergência</span>
+    DivergenciaAdicionada = <span class="code-function">Table.AddColumn</span>(
+        ColunasRemovidas, 
+        <span class="code-string">"Divergencia"</span>, 
+        <span class="code-keyword">each</span> [QtdFisica] - [QtdSistema], 
+        <span class="code-keyword">type</span> number
+    ),
+    
+    <span class="code-comment">// Classificar tipo de divergência</span>
+    TipoDivergencia = <span class="code-function">Table.AddColumn</span>(
+        DivergenciaAdicionada,
+        <span class="code-string">"TipoDivergencia"</span>,
+        <span class="code-keyword">each</span> <span class="code-keyword">if</span> [Divergencia] > <span class="code-number">0</span> <span class="code-keyword">then</span> <span class="code-string">"Sobra"</span>
+            <span class="code-keyword">else</span> <span class="code-keyword">if</span> [Divergencia] &lt; <span class="code-number">0</span> <span class="code-keyword">then</span> <span class="code-string">"Falta"</span>
+            <span class="code-keyword">else</span> <span class="code-string">"Acurado"</span>,
+        <span class="code-keyword">type</span> text
+    ),
+    
+    <span class="code-comment">// Classificação ABC por valor</span>
+    ClassificacaoABC = <span class="code-function">Table.AddColumn</span>(
+        TipoDivergencia,
+        <span class="code-string">"CurvaABC"</span>,
+        <span class="code-keyword">each</span> <span class="code-keyword">if</span> [PercentualAcumulado] &lt;= <span class="code-number">0.8</span> <span class="code-keyword">then</span> <span class="code-string">"A"</span>
+            <span class="code-keyword">else</span> <span class="code-keyword">if</span> [PercentualAcumulado] &lt;= <span class="code-number">0.95</span> <span class="code-keyword">then</span> <span class="code-string">"B"</span>
+            <span class="code-keyword">else</span> <span class="code-string">"C"</span>,
+        <span class="code-keyword">type</span> text
+    ),
+    
+    TiposDefinidos = <span class="code-function">Table.TransformColumnTypes</span>(
+        ClassificacaoABC,
+        {{<span class="code-string">"DataContagem"</span>, <span class="code-keyword">type</span> date}, {<span class="code-string">"Divergencia"</span>, <span class="code-keyword">type</span> number}}
+    )
+<span class="code-keyword">in</span>
+    TiposDefinidos</code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         EXPERIÊNCIA PROFISSIONAL - Timeline
+    ======================================== -->
+    <section class="section experiencia" id="experiencia">
+        <div class="container">
+            <h2 class="section-title fade-in">
+                <span class="title-icon"><i class="fas fa-briefcase" aria-hidden="true"></i></span>
+                Experiência <span class="gradient-text">Profissional</span>
+            </h2>
+
+            <div class="timeline">
+                <!-- Anjun Express -->
+                <div class="timeline-item fade-in">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <span class="timeline-date"><i class="fas fa-calendar" aria-hidden="true"></i> Abr/2024 — Atual</span>
+                            <span class="timeline-badge badge-current">Atual</span>
+                        </div>
+                        <h3 class="timeline-title">Analista de Dados Júnior — Logística</h3>
+                        <h4 class="timeline-company"><i class="fas fa-building" aria-hidden="true"></i> Anjun Express</h4>
+                        <ul class="timeline-bullets">
+                            <li>Criação de dashboards e relatórios analíticos para áreas de B2C e Atendimento</li>
+                            <li>Desenvolvimento de modelos de fluxos operacionais que otimizaram processos em <strong>30%</strong></li>
+                            <li>Automação de relatórios com Power BI/DAX reduzindo tempo de análise em <strong>60%</strong></li>
+                            <li>Apresentações executivas de indicadores para tomada de decisão</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">Power BI</span>
+                            <span class="tag">DAX</span>
+                            <span class="tag">SQL</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">WMS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RGLOG -->
+                <div class="timeline-item fade-in">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <span class="timeline-date"><i class="fas fa-calendar" aria-hidden="true"></i> 2023 — 2024</span>
+                        </div>
+                        <h3 class="timeline-title">Auxiliar Administrativo Pleno — Logística</h3>
+                        <h4 class="timeline-company"><i class="fas fa-building" aria-hidden="true"></i> RGLOG</h4>
+                        <ul class="timeline-bullets">
+                            <li>Liderança no projeto de inventário geral, atingindo <strong>98% de acurácia</strong></li>
+                            <li>Controle de faturação e conciliação de pedidos com redução de <strong>25%</strong> em divergências</li>
+                            <li>Desenvolvimento de soluções colaborativas para otimização de processos</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">Excel</span>
+                            <span class="tag">SAP</span>
+                            <span class="tag">Inventário</span>
+                            <span class="tag">KPIs</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Luft -->
+                <div class="timeline-item fade-in">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <span class="timeline-date"><i class="fas fa-calendar" aria-hidden="true"></i> 2020 — 2022</span>
+                        </div>
+                        <h3 class="timeline-title">Problem Solver — Logística</h3>
+                        <h4 class="timeline-company"><i class="fas fa-building" aria-hidden="true"></i> Luft</h4>
+                        <ul class="timeline-bullets">
+                            <li>Gestão de indicadores de pedidos, sobras e avarias em planilhas Excel</li>
+                            <li>Apoio administrativo com controle de KPIs operacionais</li>
+                            <li>Identificação e resolução de problemas sistêmicos no fluxo logístico</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">Excel</span>
+                            <span class="tag">TOTVS</span>
+                            <span class="tag">WMS</span>
+                            <span class="tag">KPIs</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Impacta SA -->
+                <div class="timeline-item fade-in">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <span class="timeline-date"><i class="fas fa-calendar" aria-hidden="true"></i> 2017 — 2019</span>
+                        </div>
+                        <h3 class="timeline-title">Aprendiz de Administração</h3>
+                        <h4 class="timeline-company"><i class="fas fa-building" aria-hidden="true"></i> Impacta SA</h4>
+                        <ul class="timeline-bullets">
+                            <li>Controle de planilhas e processos administrativos no setor de manutenção</li>
+                            <li>Resolução de problemas e inconsistências no sistema WMS</li>
+                            <li>Suporte operacional e documentação de processos</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">Excel</span>
+                            <span class="tag">WMS</span>
+                            <span class="tag">Administração</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         FORMAÇÃO ACADÊMICA - Cards
+    ======================================== -->
+    <section class="section formacao" id="formacao">
+        <div class="container">
+            <h2 class="section-title fade-in">
+                <span class="title-icon"><i class="fas fa-graduation-cap" aria-hidden="true"></i></span>
+                Formação <span class="gradient-text">Acadêmica</span>
+            </h2>
+
+            <!-- Graduações -->
+            <div class="formacao-grid">
+                <div class="formacao-card fade-in">
+                    <div class="formacao-icon">
+                        <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+                    </div>
+                    <div class="formacao-badge badge-andamento">Em Andamento</div>
+                    <h3 class="formacao-titulo">Análise e Desenvolvimento de Sistemas</h3>
+                    <h4 class="formacao-instituicao"><i class="fas fa-university" aria-hidden="true"></i> UNINOVE</h4>
+                    <span class="formacao-periodo"><i class="fas fa-calendar-alt" aria-hidden="true"></i> 2024 — 2026</span>
+                </div>
+
+                <div class="formacao-card fade-in" style="animation-delay: 0.15s;">
+                    <div class="formacao-icon">
+                        <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+                    </div>
+                    <div class="formacao-badge badge-concluida">Concluída</div>
+                    <h3 class="formacao-titulo">Administração</h3>
+                    <h4 class="formacao-instituicao"><i class="fas fa-university" aria-hidden="true"></i> UNINOVE</h4>
+                    <span class="formacao-periodo"><i class="fas fa-calendar-alt" aria-hidden="true"></i> 2019 — 2023</span>
+                </div>
+            </div>
+
+            <!-- Certificações -->
+            <h3 class="subsection-title fade-in"><i class="fas fa-certificate" aria-hidden="true"></i> Certificações</h3>
+            <div class="certificacoes-grid">
+                <div class="certificacao-card fade-in">
+                    <i class="fas fa-brain" aria-hidden="true"></i>
+                    <span class="cert-nome">Ciência de Dados</span>
+                    <span class="cert-instituicao">Santander</span>
+                    <span class="cert-ano">2026</span>
+                </div>
+                <div class="certificacao-card fade-in" style="animation-delay: 0.05s;">
+                    <i class="fas fa-database" aria-hidden="true"></i>
+                    <span class="cert-nome">SQLite</span>
+                    <span class="cert-instituicao">Alura</span>
+                    <span class="cert-ano">2025</span>
+                </div>
+                <div class="certificacao-card fade-in" style="animation-delay: 0.1s;">
+                    <i class="fas fa-chart-bar" aria-hidden="true"></i>
+                    <span class="cert-nome">Power BI / DAX / M / Power Query</span>
+                    <span class="cert-instituicao">Alura</span>
+                    <span class="cert-ano">2023</span>
+                </div>
+                <div class="certificacao-card fade-in" style="animation-delay: 0.15s;">
+                    <i class="fas fa-table" aria-hidden="true"></i>
+                    <span class="cert-nome">Excel Avançado</span>
+                    <span class="cert-instituicao">Alura</span>
+                    <span class="cert-ano">2022</span>
+                </div>
+                <div class="certificacao-card fade-in" style="animation-delay: 0.2s;">
+                    <i class="fas fa-briefcase" aria-hidden="true"></i>
+                    <span class="cert-nome">Administração</span>
+                    <span class="cert-instituicao">SENAI</span>
+                    <span class="cert-ano">2021</span>
+                </div>
+                <div class="certificacao-card fade-in" style="animation-delay: 0.25s;">
+                    <i class="fas fa-language" aria-hidden="true"></i>
+                    <span class="cert-nome">Inglês Avançado</span>
+                    <span class="cert-instituicao">CNA</span>
+                    <span class="cert-ano">—</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         CONTATO - Cards e formulário
+    ======================================== -->
+    <section class="section contato" id="contato">
+        <div class="container">
+            <h2 class="section-title fade-in">
+                <span class="title-icon"><i class="fas fa-envelope" aria-hidden="true"></i></span>
+                Entre em <span class="gradient-text">Contato</span>
+            </h2>
+
+            <div class="contato-grid">
+                <!-- Cards de contato -->
+                <div class="contato-cards">
+                    <a href="mailto:kzzkaiquesds@gmail.com" class="contato-card fade-in" aria-label="Enviar email">
+                        <div class="contato-card-icon"><i class="fas fa-envelope" aria-hidden="true"></i></div>
+                        <div class="contato-card-info">
+                            <span class="contato-card-label">Email</span>
+                            <span class="contato-card-value">kzzkaiquesds@gmail.com</span>
+                        </div>
+                    </a>
+
+                    <a href="tel:+5511943644063" class="contato-card fade-in" style="animation-delay: 0.1s;" aria-label="Ligar">
+                        <div class="contato-card-icon"><i class="fas fa-phone" aria-hidden="true"></i></div>
+                        <div class="contato-card-info">
+                            <span class="contato-card-label">Telefone</span>
+                            <span class="contato-card-value">(11) 94364-4063</span>
+                        </div>
+                    </a>
+
+                    <a href="https://linkedin.com/in/kaique-soares-de-souza-732b15259/" target="_blank" rel="noopener noreferrer" class="contato-card fade-in" style="animation-delay: 0.2s;" aria-label="Acessar LinkedIn">
+                        <div class="contato-card-icon"><i class="fab fa-linkedin" aria-hidden="true"></i></div>
+                        <div class="contato-card-info">
+                            <span class="contato-card-label">LinkedIn</span>
+                            <span class="contato-card-value">Kaique Soares de Souza</span>
+                        </div>
+                    </a>
+
+                    <a href="https://github.com/kzzkaiquesds" target="_blank" rel="noopener noreferrer" class="contato-card fade-in" style="animation-delay: 0.3s;" aria-label="Acessar GitHub">
+                        <div class="contato-card-icon"><i class="fab fa-github" aria-hidden="true"></i></div>
+                        <div class="contato-card-info">
+                            <span class="contato-card-label">GitHub</span>
+                            <span class="contato-card-value">kzzkaiquesds</span>
+                        </div>
+                    </a>
+
+                    <div class="contato-card fade-in" style="animation-delay: 0.4s;">
+                        <div class="contato-card-icon"><i class="fas fa-map-marker-alt" aria-hidden="true"></i></div>
+                        <div class="contato-card-info">
+                            <span class="contato-card-label">Localização</span>
+                            <span class="contato-card-value">Franco da Rocha, SP — Brasil</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Formulário de contato (visual/estático) -->
+                <div class="contato-form-wrapper fade-in">
+                    <h3 class="contato-form-title">Envie uma Mensagem</h3>
+                    <form class="contato-form" id="contato-form" onsubmit="return false;">
+                        <div class="form-group">
+                            <label for="form-nome">Nome</label>
+                            <input type="text" id="form-nome" class="form-input" placeholder="Seu nome completo" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="form-email">Email</label>
+                            <input type="email" id="form-email" class="form-input" placeholder="seu@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="form-assunto">Assunto</label>
+                            <input type="text" id="form-assunto" class="form-input" placeholder="Assunto da mensagem">
+                        </div>
+                        <div class="form-group">
+                            <label for="form-mensagem">Mensagem</label>
+                            <textarea id="form-mensagem" class="form-input form-textarea" placeholder="Escreva sua mensagem..." rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane" aria-hidden="true"></i> Enviar Mensagem
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         FOOTER
+    ======================================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Logo e descrição -->
+                <div class="footer-brand">
+                    <a href="#hero" class="footer-logo" aria-label="Ir ao topo">
+                        <span class="logo-text">KS</span>
+                    </a>
+                    <p class="footer-description">Analista de Dados especializado em transformar dados em decisões estratégicas.</p>
+                </div>
+
+                <!-- Links rápidos -->
+                <div class="footer-links">
+                    <h4 class="footer-heading">Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#competencias">Competências</a></li>
+                        <li><a href="#dashboards">Dashboards</a></li>
+                        <li><a href="#experiencia">Experiência</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+
+                <!-- Links sociais -->
+                <div class="footer-social">
+                    <h4 class="footer-heading">Redes Sociais</h4>
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/kaique-soares-de-souza-732b15259/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://github.com/kzzkaiquesds" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
+                            <i class="fab fa-github" aria-hidden="true"></i>
+                        </a>
+                        <a href="mailto:kzzkaiquesds@gmail.com" class="social-link" aria-label="Email">
+                            <i class="fas fa-envelope" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Kaique Soares de Souza. Todos os direitos reservados.</p>
+                <p class="footer-tagline">Feito com ❤️ e muitos dados</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ========================================
+         SCRIPTS
+    ======================================== -->
+    <!-- Chart.js via CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Scripts externos -->
+    <script src="js/main.js"></script>
+    <script src="js/dashboards.js"></script>
+    <script src="js/code-tabs.js"></script>
+</body>
+</html>

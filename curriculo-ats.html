@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Currículo ATS - Kaique Soares de Souza - Analista de Dados Pleno">
+  <title>Kaique Soares de Souza – Analista de Dados Pleno</title>
+  <style>
+    /* Reset e configurações base */
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Configuração da página A4 */
+    @page {
+      size: A4;
+      margin: 1.5cm;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 10pt;
+      line-height: 1.4;
+      color: #333;
+      background-color: #fff;
+      max-width: 210mm;
+      margin: 0 auto;
+      padding: 1.5cm;
+    }
+
+    /* Cabeçalho principal */
+    header {
+      text-align: center;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #1a365d;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      font-size: 18pt;
+      color: #1a365d;
+      font-weight: bold;
+      margin-bottom: 2px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .titulo-profissional {
+      font-size: 11pt;
+      color: #1a365d;
+      font-weight: normal;
+      margin-bottom: 5px;
+    }
+
+    .contatos {
+      font-size: 9pt;
+      color: #555;
+      line-height: 1.5;
+    }
+
+    .contatos a {
+      color: #555;
+      text-decoration: none;
+    }
+
+    /* Seções do currículo */
+    section {
+      margin-bottom: 8px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    section:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    h2 {
+      font-size: 12pt;
+      color: #1a365d;
+      text-transform: uppercase;
+      font-weight: bold;
+      border-bottom: 1px solid #1a365d;
+      padding-bottom: 2px;
+      margin-bottom: 6px;
+      letter-spacing: 0.5px;
+    }
+
+    /* Resumo profissional */
+    .resumo p {
+      text-align: justify;
+      font-size: 10pt;
+    }
+
+    /* Experiência profissional */
+    .cargo-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 3px;
+    }
+
+    .cargo-titulo {
+      font-weight: bold;
+      font-size: 10pt;
+      color: #1a365d;
+    }
+
+    .cargo-periodo {
+      font-size: 9pt;
+      color: #555;
+      white-space: nowrap;
+    }
+
+    .experiencia-item {
+      margin-bottom: 7px;
+    }
+
+    .experiencia-item:last-child {
+      margin-bottom: 0;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 18px;
+      margin-top: 2px;
+    }
+
+    li {
+      margin-bottom: 1px;
+      font-size: 9.5pt;
+      color: #333;
+    }
+
+    /* Competências técnicas */
+    .competencia-grupo {
+      margin-bottom: 3px;
+    }
+
+    .competencia-grupo strong {
+      color: #1a365d;
+      font-size: 9.5pt;
+    }
+
+    .competencia-grupo span {
+      font-size: 9.5pt;
+    }
+
+    /* Formação acadêmica */
+    .formacao-item {
+      margin-bottom: 3px;
+    }
+
+    .formacao-item strong {
+      font-size: 10pt;
+    }
+
+    .formacao-item span {
+      font-size: 9.5pt;
+      color: #555;
+    }
+
+    /* Certificações */
+    .certificacoes ul {
+      list-style-type: disc;
+      columns: 2;
+      column-gap: 20px;
+    }
+
+    .certificacoes li {
+      font-size: 9pt;
+      margin-bottom: 1px;
+    }
+
+    /* Idiomas */
+    .idiomas p {
+      font-size: 9.5pt;
+    }
+
+    /* Estilos para impressão */
+    @media print {
+      body {
+        padding: 0;
+        margin: 0;
+        max-width: none;
+        font-size: 10pt;
+      }
+
+      section {
+        border-bottom: none;
+        page-break-inside: avoid;
+      }
+
+      header {
+        border-bottom: 2px solid #1a365d;
+      }
+
+      h2 {
+        border-bottom: 1px solid #1a365d;
+      }
+
+      a {
+        text-decoration: none;
+        color: #555;
+      }
+
+      /* Garantir que tudo caiba em 1 página */
+      html, body {
+        height: auto;
+        overflow: visible;
+      }
+
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    /* Barra de utilidades visível apenas em tela */
+    @media screen {
+      .barra-acoes {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #1a365d;
+        color: #ffffff;
+        padding: 10px 16px;
+        border-radius: 6px;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+      }
+      .barra-acoes a {
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 9pt;
+      }
+      .barra-acoes button {
+        background: #00d4ff;
+        color: #0a0a0f;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 4px;
+        font-weight: bold;
+        cursor: pointer;
+        font-size: 9pt;
+        transition: transform 0.2s, background-color 0.2s;
+      }
+      .barra-acoes button:hover {
+        background: #38bdf8;
+        transform: translateY(-1px);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Barra de controle (impressão e navegação) oculta na impressão -->
+  <div class="barra-acoes no-print">
+    <a href="index.html">← Voltar ao Portfólio Principal</a>
+    <button onclick="window.print()">🖨️ Imprimir / Salvar em PDF (Ctrl+P)</button>
+  </div>
+
+  <!-- Cabeçalho com dados pessoais -->
+  <header>
+    <h1>Kaique Soares de Souza</h1>
+    <p class="titulo-profissional">Analista de Dados Pleno</p>
+    <p class="contatos">
+      Franco da Rocha, SP &nbsp;|&nbsp;
+      (11) 94364-4063 &nbsp;|&nbsp;
+      <a href="mailto:kzzkaiquesds@gmail.com">kzzkaiquesds@gmail.com</a> &nbsp;|&nbsp;
+      <a href="https://linkedin.com/in/kaique-soares-de-souza-732b15259" target="_blank">linkedin.com/in/kaique-soares-de-souza-732b15259</a>
+    </p>
+  </header>
+
+  <!-- Resumo profissional -->
+  <section class="resumo">
+    <h2>Resumo Profissional</h2>
+    <p>
+      Analista de Dados com 4+ anos de experiência em operações logísticas, especializado em criação de dashboards estratégicos, automação de relatórios e análise de indicadores de performance. Domínio avançado de SQL, Python, Power BI (DAX/M/Power Query) e Excel. Experiência comprovada em ambientes com WMS, SAP e TOTVS, transformando dados operacionais em insights acionáveis que impulsionaram ganhos de eficiência de até 30% e reduções de divergências de 25%. Graduação em Análise e Desenvolvimento de Sistemas e Administração.
+    </p>
+  </section>
+
+  <!-- Experiência profissional -->
+  <section class="experiencia">
+    <h2>Experiência Profissional</h2>
+
+    <div class="experiencia-item">
+      <div class="cargo-header">
+        <span class="cargo-titulo">Analista de Dados Júnior | Anjun Express – Logística</span>
+        <span class="cargo-periodo">Jan/2024 – Abr/2026</span>
+      </div>
+      <ul>
+        <li>Desenvolveu e manteve +15 dashboards em Power BI com DAX e Power Query para áreas de B2C e Atendimento, monitorando indicadores críticos de SLA e satisfação do cliente</li>
+        <li>Automatizou processos de geração de relatórios com Python e VBA, reduzindo o tempo de análise em 60% e eliminando retrabalho manual</li>
+        <li>Projetou modelos de fluxos operacionais que otimizaram processos de entrega, resultando em melhoria de 30% na eficiência logística</li>
+        <li>Elaborou apresentações executivas com análises de dados para suporte à tomada de decisão estratégica da diretoria</li>
+        <li>Implementou consultas SQL complexas em PostgreSQL para extração e transformação de dados de múltiplas fontes</li>
+      </ul>
+    </div>
+
+    <div class="experiencia-item">
+      <div class="cargo-header">
+        <span class="cargo-titulo">Auxiliar Administrativo Pleno | RGLOG – Logística</span>
+        <span class="cargo-periodo">2023 – 2024</span>
+      </div>
+      <ul>
+        <li>Liderou projeto de inventário geral da empresa, alcançando 98% de acurácia no controle de estoque através de análises em Excel e Power BI</li>
+        <li>Desenvolveu sistema de controle de faturação e conciliação de pedidos, reduzindo divergências financeiras em 25%</li>
+        <li>Criou dashboards de acompanhamento de KPIs operacionais para gestão de recepção e expedição</li>
+        <li>Colaborou em projetos cross-funcionais para desenvolvimento de soluções de automação e otimização de processos</li>
+      </ul>
+    </div>
+
+    <div class="experiencia-item">
+      <div class="cargo-header">
+        <span class="cargo-titulo">Problem Solver | Luft – Logística</span>
+        <span class="cargo-periodo">2020 – 2022</span>
+      </div>
+      <ul>
+        <li>Gerenciou indicadores operacionais de pedidos, sobras, avarias e estoque em planilhas Excel avançadas com fórmulas e VBA</li>
+        <li>Identificou e resolveu problemas sistêmicos no fluxo logístico, reduzindo ocorrências recorrentes em 40%</li>
+        <li>Apoiou a administração da área com análises de dados para tomada de decisão operacional</li>
+      </ul>
+    </div>
+
+    <div class="experiencia-item">
+      <div class="cargo-header">
+        <span class="cargo-titulo">Aprendiz de Administração | Impacta SA</span>
+        <span class="cargo-periodo">2017 – 2019</span>
+      </div>
+      <ul>
+        <li>Desenvolveu planilhas de controle para o setor de manutenção, automatizando processos com Excel</li>
+        <li>Identificou e resolveu inconsistências no sistema WMS, melhorando a confiabilidade dos dados operacionais</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Competências técnicas -->
+  <section class="competencias">
+    <h2>Competências Técnicas</h2>
+    <div class="competencia-grupo">
+      <strong>Análise e Visualização:</strong>
+      <span>Power BI (DAX, Linguagem M, Power Query) | Tableau | Excel Avançado (VBA, Macros, Tabelas Dinâmicas) | PowerPoint</span>
+    </div>
+    <div class="competencia-grupo">
+      <strong>Banco de Dados e Programação:</strong>
+      <span>SQL (PostgreSQL, Oracle, SQLite) | Python (Pandas, SQLAlchemy) | Java (noções)</span>
+    </div>
+    <div class="competencia-grupo">
+      <strong>ERPs e Sistemas de Gestão:</strong>
+      <span>WMS | SAP | TOTVS | WIS</span>
+    </div>
+    <div class="competencia-grupo">
+      <strong>Metodologias:</strong>
+      <span>ETL | Análise Exploratória de Dados | Modelagem de Dados | KPIs e Métricas</span>
+    </div>
+  </section>
+
+  <!-- Formação acadêmica -->
+  <section class="formacao">
+    <h2>Formação Acadêmica</h2>
+    <div class="formacao-item">
+      <strong>Análise e Desenvolvimento de Sistemas</strong> – UNINOVE <span>(2024 – 2026, em andamento)</span>
+    </div>
+    <div class="formacao-item">
+      <strong>Administração</strong> – UNINOVE <span>(2019 – 2023, concluída)</span>
+    </div>
+  </section>
+
+  <!-- Certificações e cursos -->
+  <section class="certificacoes">
+    <h2>Certificações e Cursos</h2>
+    <ul>
+      <li>Introdução à Ciência de Dados – Santander (2026)</li>
+      <li>SQLite Online – Alura (2025)</li>
+      <li>Power BI: DAX, Linguagem M e Power Query – Alura (2023)</li>
+      <li>Excel Avançado – Alura (2022)</li>
+      <li>Administração – SENAI (2021)</li>
+    </ul>
+  </section>
+
+  <!-- Idiomas -->
+  <section class="idiomas">
+    <h2>Idiomas</h2>
+    <p>Português – Nativo &nbsp;|&nbsp; Inglês – Avançado (CNA Idiomas) &nbsp;|&nbsp; Espanhol – Intermediário</p>
+  </section>
+
+</body>
+</html>
